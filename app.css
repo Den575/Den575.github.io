@@ -1,0 +1,37 @@
+body {
+    background-color: #B1052C;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;    
+  }
+  .color{
+    background-color: #FFFFFF;
+  }
+.den{
+  background-color: #FFFFFF
+  
+}
+.g{
+  background-color: #FFFFFF;
+
+}
+
+.center-img {
+  text-align: center;
+  margin-top: 20px;
+}
+#lol{margin-left: 350px;
+      margin-right: 350px;}
+
+      .shadow {
+    box-shadow: 0 0 5px rgba(0,0,0,0.5); /* Параметры тени */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+   }
+   a:hover{
+    color:#B1052C ;
+   }
