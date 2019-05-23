@@ -1418,10 +1418,12 @@ body {
 }
 .cid-qTkA127IK8 H1 {
   color: #ff3366;
+  text-align: center;
 }
 .cid-qTkA127IK8 .mbr-text,
 .cid-qTkA127IK8 .mbr-section-btn {
   color: #cc2952;
+  text-align: center;
 }
 .cid-rqbE4bCKiI {
   padding-top: 90px;
@@ -1482,11 +1484,11 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #554346;
+  background: #cc2952;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
-  background: linear-gradient(to left, #554346, #45505b) !important;
+  background: linear-gradient(to left, #cc2952, #cccccc) !important;
 }
 .cid-rqfqRR9au7 .mbr-gallery-item > div:hover .mbr-gallery-title::before {
   background: transparent !important;
@@ -1512,11 +1514,11 @@ body {
   left: 0;
   z-index: -1;
   position: absolute;
-  background: #554346 !important;
+  background: #cc2952 !important;
   opacity: 0.7;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
-  background: linear-gradient(to left, #554346, #45505b) !important;
+  background: linear-gradient(to left, #cc2952, #cccccc) !important;
 }
 .cid-rqbE89rOwB {
   padding-top: 90px;
@@ -1615,9 +1617,41 @@ body {
     font-size: 0.6rem;
   }
 }
+.cid-rr71XZ11QI {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #cccccc;
+}
+.cid-rr71XZ11QI .testimonial-text {
+  font-style: italic;
+  font-weight: 300;
+  color: #232323;
+}
+.cid-rr71XZ11QI .mbr-author-name {
+  font-weight: bold;
+  color: #232323;
+}
+.cid-rr71XZ11QI .media-container-row {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+@media (max-width: 991px) {
+  .cid-rr71XZ11QI .mbr-figure,
+  .cid-rr71XZ11QI img {
+    max-height: 300px;
+    width: auto;
+    margin: auto;
+  }
+  .cid-rr71XZ11QI .media-content {
+    padding-top: 1.5rem !important;
+  }
+}
+.cid-rr71XZ11QI .mbr-author-desc {
+  color: #232323;
+}
 .cid-rqfsojQOBG {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   background-color: #ffffff;
 }
 .cid-rqfsojQOBG .title {
@@ -1638,7 +1672,7 @@ body {
 }
 .cid-qTkAaeaxX5 {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 15px;
   background-color: #2e2e2e;
 }
 @media (max-width: 767px) {
